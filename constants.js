@@ -125,7 +125,7 @@ export default {
     }
   ],
   SOCIAL_LINKS: [
-    { name: 'Linkedin', link: 'https://in.linkedin.com/in/kousika-ganesan' },
+    { name: 'Linkedin', link: 'https://www.linkedin.com/in/f-sobron/' },
     {
       name: 'Stackoverflow',
       link: 'https://stackoverflow.com/users/5622324/kousika-ganesan'
@@ -135,21 +135,21 @@ export default {
     { name: 'Twitter', link: 'https://twitter.com/kousika13' },
     { name: 'Email', link: 'mailto:g.kousika@gmail.com' }
   ],
-  HIRE_ME: 'mailto:g.kousika@gmail.com',
-  CONNECT_VIA_LINKEDIN: 'https://in.linkedin.com/in/kousika-ganesan',
-  GITHUB_LINK: 'https://github.com/kousikaganesan',
+  HIRE_ME: 'mailto:videofeatures@duck.com',
+  CONNECT_VIA_LINKEDIN: 'https://www.linkedin.com/in/f-sobron',
+  GITHUB_LINK: 'https://github.com/OastBarnStudio-dev',
   PROJECTS: [
     {
-      title: 'COVID-19 Tracker',
+      title: 'Adverts',
       isConfidential: false,
       techStack: ['React JS', 'Redux'],
       cover: 'covid19.png',
       description:
-        'A real time application to track the COVID-19 cases around the world. I designed and developed this application as an open source contribution',
+        'A life writing and producing adverts, some award winners other, just adverts.',
       url: 'https://github.com/kousikaganesan/covid-19-tracker'
     },
     {
-      title: 'Women Safety App',
+      title: 'Documentary and Unscripted TV',
       techStack: ['React Native', 'Redux', 'Node JS', 'Mongo DB'],
       isConfidential: true,
       description: `It is a React native app where I worked on designing 

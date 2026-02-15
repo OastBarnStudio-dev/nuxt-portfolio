@@ -6,8 +6,8 @@ export default {
    ** Headers of the page
    */
   head: {
-    titleTemplate: 'Kousika Ganesan',
-    title: 'Kousika Ganesan - Fullstack Developer',
+    titleTemplate: 'Kousikas no longer',
+    title: 'Fernando Sobron Heathfield Studio',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -15,21 +15,21 @@ export default {
         name: 'description',
         hid: 'description',
         content:
-          'Experienced in the field of web and hybrid app development using JavaScript and its frameworks. Proficient in building scalable micro services as well.'
+          'Award winning admen and documentary film maker, PhD. I am a media professional now running an advertising practice after decades working for ad agencies and TV producers, producing video, graphics and illustration from the heart of East Sussex'
       },
       {
         name: 'keywords',
         content:
-          'Fullstack Developer, Remote Engineer, Software developer, app development'
+          'Advertising Creative Director, Unscripted TV and film Producer Director, Illustration and comics, Documentary scholar, PhD'
       },
       {
         name: 'og:title',
-        content: 'Kousika Ganesan - Fullstack Developer'
+        content: 'Fernando Sobron at the Barn Studio, Heathfield'
       },
       {
         name: 'og:description',
         content:
-          'Experienced in the field of web and hybrid app development using JavaScript and its frameworks. Proficient in building scalable micro services as well.'
+          'Experienced admen and film maker running a video and graphic studio production.'
       },
       { name: 'og:type', content: 'website' },
       { name: 'og:url', content: 'https://kousikaganesan.github.io/' },

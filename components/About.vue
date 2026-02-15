@@ -15,7 +15,7 @@
       </div>
       <div class="content" data-aos="fade-up">
         <p>
-          Hi, I'm a Full stack developer specialised in both frontend and
+          Hi, I'm an admen Full stack developer specialised in both frontend and
           backend development for building complex and scalable web apps. I’ve
           always sought out opportunities and challenges that are meaningful to
           me. Over the past 3 years, I have collaborated with incredible teams
