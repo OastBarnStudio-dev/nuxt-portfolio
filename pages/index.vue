@@ -1,16 +1,23 @@
 <template>
-  <v-layout>
-    <Main />
-  </v-layout>
+  <v-app>
+    <v-main>
+      <v-container>
+        <PortfolioMain />
+      </v-container>
+    </v-main>
+  </v-app>
 </template>
 
 <script>
-import Main from '@/components/Main'
+import PortfolioMain from '@/components/Main'
+
 export default {
   components: {
-    Main
+    PortfolioMain
   }
 }
 </script>
 
-<style lang="scss" scoped></style>
+<style scoped>
+/* Keep it empty for now to ensure a clean build */
+</style>

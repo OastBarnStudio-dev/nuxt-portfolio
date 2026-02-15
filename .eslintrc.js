@@ -19,5 +19,7 @@ module.exports = {
   ],
   // add your custom rules here
   rules: {
+    'vue/comment-directive': 'off', // Add this line
+    'no-console': 'off'             // (Optional) helpful for dev
   }
 }
