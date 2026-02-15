@@ -65,7 +65,7 @@ export default {
         content: 'Kousika Ganesan Logo'
       }
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+    link: [{ rel: 'icon', type: 'image/x-icon?v=2', href: '/favicon.ico' }],
     script: [
       {
         // src: 'drift.min.js'
