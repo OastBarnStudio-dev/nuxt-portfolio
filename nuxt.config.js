@@ -6,8 +6,8 @@ export default {
    ** Headers of the page
    */
   head: {
-    titleTemplate: 'Kousikas no longer',
-    title: 'Fernando Sobron Heathfield Studio',
+    titleTemplate: 'F Sobron',
+    title: 'F Sobron Heathfield Studio',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -44,16 +44,15 @@ export default {
       },
       {
         name: 'twitter:site',
-        content: 'Kousika Ganesan'
+        content: 'F Sobron'
       },
       {
         name: 'twitter:title',
-        content: 'Kousika Ganesan - Fullstack Developer'
+        content: 'F_Sobron'
       },
       {
         name: 'twitter:description',
-        content:
-          'Experienced in the field of web and hybrid app development using JavaScript and its frameworks. Proficient in building scalable micro services as well.'
+        content: 'Advertising creative, Producer Director, Illustrator.'
       },
       {
         name: 'twitter:image',

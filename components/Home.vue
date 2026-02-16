@@ -10,21 +10,22 @@
         <div
           class="banner d-flex justify-center align-center rellax flex-column"
         >
-          <div class="banner-text">Hi, I am</div>
-          <div class="full-name">Kousika Ganesan</div>
+          <div class="banner-text">Welcome to</div>
+          <div class="full-name">Fernando and Zac's Barn Studio</div>
           <vue-typed-js
             class="justify-center"
             :loop="true"
             :type-speed="35"
             :back-speed="35"
             :strings="[
-              'Full stack developer',
-              'Javascript enthusiast',
-              'Avid learner'
+              'Award winning advertising Creative',
+              'Experience Unescripted Producer Director',
+              'Illustrator and Documentary Scholar',
+              'Ace at gnawing large bones. Zac is.'
             ]"
           >
             <div class="sub-text">
-              I'm a <span class="typing font-weight-bold"></span>
+              An <span class="typing font-weight-bold"></span>
             </div>
           </vue-typed-js>
           <v-btn

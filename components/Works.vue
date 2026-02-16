@@ -1,7 +1,7 @@
 <template>
   <v-container id="works" fluid class="works portfolio-container">
     <div class="px-4">
-      <div class="section-title">Recent works</div>
+      <div class="section-title">Works past and present</div>
       <!-- <div class="works-description">
         I have worked in 10+ projects in various Javascript technologies by
         collaborating with some incredible teams and also by independently

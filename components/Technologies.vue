@@ -1,7 +1,8 @@
 <template>
   <div class="technologies">
     <div class="technologies-title d-flex justify-center align-center">
-      Technologies I <img class="heart" src="@/assets/images/heart.png" />
+      Skills and Services we offer
+      <img class="roller" src="@/assets/images/paint-roller.png" />
     </div>
     <carousel :autoplay="true" :nav="false" :loop="true" :items="1">
       <div
@@ -62,7 +63,7 @@ export default {
       border-radius: 4px;
     }
   }
-  .heart {
+  .roller {
     height: 2.4375rem;
   }
 }

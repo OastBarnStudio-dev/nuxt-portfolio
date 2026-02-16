@@ -11,56 +11,56 @@ export default {
       name: 'set1',
       items: [
         {
-          name: 'Vue',
+          name: 'Producing Directing',
           image: 'vue.png'
         },
         {
-          name: 'React',
+          name: 'Self shooting',
           image: 'react.svg'
         },
         {
-          name: 'Angular',
+          name: 'Script writing',
           image: 'angular.png'
         },
         {
-          name: 'Ionic',
+          name: 'Davinci Resolve Editing ',
           image: 'ionic.png'
         },
         {
-          name: 'Redux',
+          name: 'Final Cut',
           image: 'redux.png'
         },
         {
-          name: 'Nuxt',
+          name: 'Podcast Production',
           image: 'nuxt.svg'
         }
       ]
     },
     {
-      name: 'set2',
+      name: 'Advertising Campaigns',
       items: [
         {
-          name: 'Vuetify',
+          name: 'Comercials scriptwriting',
           image: 'vuetify.png'
         },
         {
-          name: 'Ant Design',
+          name: 'Comercials Production',
           image: 'antdesign.svg'
         },
         {
-          name: 'React Material-UI',
+          name: 'Across Media integration',
           image: 'reactmaterial.png'
         },
         {
-          name: 'Node',
+          name: 'Print and Poster Advertising',
           image: 'nodejs.webp'
         },
         {
-          name: 'Mongo DB',
+          name: 'TV Production',
           image: 'mongodb.png'
         },
         {
-          name: 'Nginx',
+          name: 'Viral',
           image: 'nginx.svg'
         }
       ]
@@ -69,27 +69,27 @@ export default {
       name: 'set3',
       items: [
         {
-          name: 'React Native',
+          name: 'Illustration',
           image: 'react.svg'
         },
         {
-          name: 'PM2',
+          name: 'Storyboarding',
           image: 'pm2.png'
         },
         {
-          name: 'Wit.ai',
+          name: 'Concept Sketching',
           image: 'witai.png'
         },
         {
-          name: 'Typescript',
+          name: 'Gaphic Design',
           image: 'typescript.png'
         },
         {
-          name: 'Scss',
+          name: 'Comics',
           image: 'scss.png'
         },
         {
-          name: 'D3.js',
+          name: 'Cartoons',
           image: 'd3.png'
         }
       ]
@@ -127,25 +127,24 @@ export default {
   SOCIAL_LINKS: [
     { name: 'Linkedin', link: 'https://www.linkedin.com/in/f-sobron/' },
     {
-      name: 'Stackoverflow',
-      link: 'https://stackoverflow.com/users/5622324/kousika-ganesan'
+      name: 'GitHub',
+      link: 'https://github.com/OastBarnStudio-dev'
     },
-    { name: 'Medium', link: 'https://medium.com/@kousika' },
-    { name: 'GitHub', link: 'https://github.com/kousikaganesan' },
-    { name: 'Twitter', link: 'https://twitter.com/kousika13' },
-    { name: 'Email', link: 'mailto:g.kousika@gmail.com' }
+    { name: 'GitHub', link: 'https://github.com/OastBarnStudio-dev' },
+    { name: 'Twitter', link: 'https://https://x.com/FernandoSobron' },
+    { name: 'Email', link: 'mailto:videofeatures@duck.com' }
   ],
   HIRE_ME: 'mailto:videofeatures@duck.com',
   CONNECT_VIA_LINKEDIN: 'https://www.linkedin.com/in/f-sobron',
   GITHUB_LINK: 'https://github.com/OastBarnStudio-dev',
   PROJECTS: [
     {
-      title: 'Adverts',
+      title: 'Advertising Services',
       isConfidential: false,
-      techStack: ['React JS', 'Redux'],
-      cover: 'covid19.png',
+      techStack: ['Campaing Development'],
+      cover: 'tabasco_small.png',
       description:
-        'A life writing and producing adverts, some award winners other, just adverts.',
+        'Technology evolves. Media expands. Channels multiply and grow ever more sophisticated — yet human nature remains unchanged. Build with us. Together, we will amplify your marketing with deep foundational expertise, shaped by decades of success in advertising communications and guided by the timeless art of empathy and persuasion. Because while the tools may change, the human heart remains.',
       url: 'https://github.com/kousikaganesan/covid-19-tracker'
     },
     {
@@ -156,7 +155,7 @@ export default {
       auth and navigation screens. Also, worked on the complete state 
       management of the auth flow and third party integrations to provide 
       real time live updates to the user.`,
-      cover: 'women-safety.jpeg'
+      cover: 'apits_small.png'
     },
     {
       title: 'My Portfolio',
@@ -165,19 +164,13 @@ export default {
       description:
         'This is the initial version of portfolio to display my work. Developed this project in a short span of time. I have planned to add more sections and micro interactions in the future',
       isConfidential: false,
-      url: 'https://github.com/kousikaganesan/nuxt-resume-template'
+      url: 'https://www.thetalentmanager.com/talent/115116/dr-fernando-sobron'
     },
     {
-      title: 'A Productive App',
+      title: 'A Productive Template',
       techStack: ['React Native', 'Redux', 'Node JS', 'Mongo DB'],
       isConfidential: true,
-      description: `It is a web application built on React webpack which 
-      syncs the Google and Microsoft calendar events. I worked on several parts 
-      of the app including setting up the initial infrastructure to enable the 
-      integration with third-party apps like MS Outlook
-      calendar, Google calendar, Google Drive, Gmail.etc. Also, worked on implementing 
-      complex timeline-like feature on the react app. Handled all the integration 
-      with the Redux store.`,
+      description: `Still a work in progress. I want to produce a simple, free, customizable, and publish-ready template for professionals outside of programming who want a self-publishing, sleek, technologically up-to-date, fast-loading website for platforms like Netlify — without inducing despair and hair loss.`,
       cover: 'notes.jpeg'
     },
     {
