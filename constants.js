@@ -158,11 +158,11 @@ export default {
       cover: 'apits_small.png'
     },
     {
-      title: 'My Portfolio',
+      title: 'Illustration and Storyboarding',
       techStack: ['Nuxt JS'],
-      cover: 'portfolio-design.png',
+      cover: 'ford_story.png',
       description:
-        'This is the initial version of portfolio to display my work. Developed this project in a short span of time. I have planned to add more sections and micro interactions in the future',
+        'This is the initial version of portfolio to display my illustration work.',
       isConfidential: false,
       url: 'https://www.thetalentmanager.com/talent/115116/dr-fernando-sobron'
     },

@@ -8,7 +8,8 @@
       </div>
       <div class="quotes text-center mb-10" data-aos="fade-up">
         <q>
-          When you do what you love doing, time flies, says Zac sipping his tea.
+          When you do what you love doing, time flies, says Zac while sipping
+          his tea.
         </q>
         <br />
       </div>
@@ -21,14 +22,19 @@
           creative input in representations portraying the historical real. I
           began my career at a very young age training as an illustrator, and I
           continue to love drawing and creating illustrations and comics. Within
-          these pages, you will find selected examples of my work across print,
-          television, film, and video. Zac, my partner and friend is a Wirehair
-          Drahthaar. A well charactered charmer, he is really good fun to be
-          around.
+          these pages, you will find selected examples of my work across
+          advertising, print, television, film and video. Zac, my partner and
+          friend is a Wirehair Drahthaar. A well charactered charmer, he is
+          really good fun to be around.
         </p>
         <p>
           I also love to sketch and do crafts. These skills made me believe in
           "A problem visualised is a problem halved."
+        </p>
+        <p>
+          These pages are stil in development at 16/02/2026 and will be
+          gradually populate with work in the coming days. Please, use our
+          contact page for any queries.
         </p>
       </div>
       <div data-aos="fade-up">

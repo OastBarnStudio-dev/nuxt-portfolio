@@ -15,7 +15,7 @@ export default {
         name: 'description',
         hid: 'description',
         content:
-          'Award winning admen and documentary film maker, PhD. I am a media professional now running an advertising practice after decades working for ad agencies and TV producers, producing video, graphics and illustration from the heart of East Sussex'
+          'Award winning admen and documentary film maker, PhD. I am a media professional now running an advertising practice after decades working for ad agencies and TV productions, writing and shooting video, graphics and illustration from the heart of East Sussex'
       },
       {
         name: 'keywords',

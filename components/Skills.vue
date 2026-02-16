@@ -1,45 +1,47 @@
 <template>
   <v-container id="skills" fluid class="skills portfolio-container">
     <div>
-      <div class="section-title">What I do</div>
+      <div class="section-title">What we do</div>
       <v-row no-gutters class="px-5">
         <v-col class="text-center px-4" cols="12" sm="4">
           <img
-            alt="frontend"
+            alt="Adverts"
             class="skill-img"
             src="@/assets/images/frontend.png"
             data-aos="fade-up"
           />
-          <div class="skill-title" data-aos="fade-up">Frontend</div>
+          <div class="skill-title" data-aos="fade-up">Adverts</div>
           <div class="skill-description" data-aos="fade-up">
-            Build responsive and cross browser efficient websites by providing
-            seamless transition from design to development
+            Scriptwriting, campains concept creaion and production to TV, video,
+            online and print.
           </div>
         </v-col>
         <v-col class="text-center px-4" cols="12" sm="4">
           <img
-            alt="backend"
+            alt="Video"
             class="skill-img"
             src="@/assets/images/backend.png"
             data-aos="fade-up"
           />
-          <div class="skill-title" data-aos="fade-up">Backend</div>
+          <div class="skill-title" data-aos="fade-up">Video Production</div>
           <div class="skill-description" data-aos="fade-up">
-            Maintaining servers including database administration as well as
-            scaling applications to handle load changes.
+            Self shoting producer director services, pre-edits and short edit
+            with Resolve and final cut postproduction.
           </div>
         </v-col>
         <v-col class="text-center px-4" cols="12" sm="4">
           <img
-            alt="mobileapp"
+            alt="Illustration and design"
             class="skill-img"
             src="@/assets/images/mobileapp.png"
             data-aos="fade-up"
           />
-          <div class="skill-title" data-aos="fade-up">Hybrid mobile app</div>
+          <div class="skill-title" data-aos="fade-up">
+            Illustration and design
+          </div>
           <div class="skill-description" data-aos="fade-up">
-            Build easily maintainable mobile apps that run on Android, IOS and
-            web with single code implementation.
+            Sdvertising and Graphic Art Direction, Pencil, pen and ink
+            Ilustration and digital using Adobe, Affinity or Procreate.
           </div>
         </v-col>
       </v-row>
