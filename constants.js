@@ -182,11 +182,14 @@ export default {
       url: 'https://github.com/kousikaganesan/blog-site'
     },
     {
-      title: 'Company’s Saas Product',
+      title: 'Print and Graphic',
       techStack: ['Vue', 'Vuex', 'Node JS', 'Mongo DB'],
       isConfidential: true,
-      description: `Worked on setting up the initial infrastructure for the front end and backend project as well. This is a Saas app that my company is working on. The front end uses a combination of Vue + Vuex. This was a side project that I was working on top of the regular work hours and sometimes did full time as well.`,
-      cover: 'saas.jpg'
+      description: `Please click on the video file to see samples of Print and poster ads and other graphic work.`,
+      cover:
+        'https://res.cloudinary.com/dxp5v7a5h/image/upload/f_auto,q_auto/v1771605229/videocover_hfc49u.png',
+      video:
+        'https://res.cloudinary.com/dxp5v7a5h/video/upload/v1771608664/ads_n_graphic_c9u5fj.mp4' // The "static" path
     }
   ]
 }

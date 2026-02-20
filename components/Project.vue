@@ -5,8 +5,12 @@
         class="white--text align-end"
         height="200px"
         :alt="project.title"
-        :position="project.cover === 'covid19.png' ? 'top' : 'center'"
-        :src="require(`@/assets/images/${project.cover}`)"
+        :position="project.cover === 'tabasco_small.png' ? 'top' : 'center'"
+        :src="
+          project.cover.startsWith('http')
+            ? project.cover
+            : require(`@/assets/images/${project.cover}`)
+        "
       >
         <v-expand-transition>
           <div
@@ -28,27 +32,46 @@
           </div>
         </v-expand-transition>
       </v-img>
+
       <v-card-text class="text--primary">
         <h2 class="font-weight-black pb-2">{{ project.title }}</h2>
         <div class="pb-2 tech-stack">{{ project.techStack.join(', ') }}</div>
       </v-card-text>
+
       <v-dialog
         v-model="dialog"
         transition="dialog-bottom-transition"
         max-width="500"
       >
-        <v-card class="project-modal">
+        <v-card v-if="dialog" class="project-modal">
           <div class="close-btn" @click="toggleModal">
             <v-icon>mdi-close</v-icon>
           </div>
+
+          <div v-if="project.video" style="background-color: black;">
+            <video
+              width="100%"
+              height="auto"
+              controls
+              style="width: 100%; height: auto; display: block;"
+              :poster="project.cover"
+            >
+              <source :src="project.video" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+
           <v-img
+            v-else
             height="200"
             cover
             :alt="project.title"
             :position="project.cover === 'covid19.png' ? 'top' : 'center'"
-            :src="require(`@/assets/images/${project.cover}`)"
+            :src="project.cover"
           ></v-img>
-          <v-card-title>{{ project.title }} </v-card-title>
+
+          <v-card-title>{{ project.title }}</v-card-title>
+
           <v-card-text>
             <p>
               <v-chip
@@ -62,10 +85,14 @@
               </v-chip>
             </p>
             <p>{{ project.description }}</p>
-            <div v-if="project.isConfidential" class="pb-4">
-              This project comes under Squashapps pvt ltd and hence its name is
-              confidential.
+
+            <div
+              v-if="project.isConfidential"
+              class="pb-4 text-caption grey--text"
+            >
+              * Note: Project details may be restricted.
             </div>
+
             <v-btn
               class="my-2 view-project"
               depressed
@@ -138,9 +165,6 @@ export default {
 .project-modal {
   background: #323030;
   position: relative;
-}
-.title {
-  height: 3.25rem;
 }
 .close-btn {
   position: absolute;
