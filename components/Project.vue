@@ -41,14 +41,28 @@
       <v-dialog
         v-model="dialog"
         transition="dialog-bottom-transition"
-        max-width="500"
+        max-width="800"
       >
         <v-card v-if="dialog" class="project-modal">
           <div class="close-btn" @click="toggleModal">
             <v-icon>mdi-close</v-icon>
           </div>
 
-          <div v-if="project.video" style="background-color: black;">
+          <div
+            v-if="project.vimeo"
+            style="padding:56.25% 0 0 0; position:relative;"
+          >
+            <iframe
+              :src="project.vimeo"
+              style="position:absolute; top:0; left:0; width:100%; height:100%;"
+              frameborder="0"
+              allow="autoplay; fullscreen; picture-in-picture"
+              allowfullscreen
+            >
+            </iframe>
+          </div>
+
+          <div v-else-if="project.video" style="background-color: black;">
             <video
               width="100%"
               height="auto"
@@ -66,7 +80,6 @@
             height="200"
             cover
             :alt="project.title"
-            :position="project.cover === 'covid19.png' ? 'top' : 'center'"
             :src="project.cover"
           ></v-img>
 

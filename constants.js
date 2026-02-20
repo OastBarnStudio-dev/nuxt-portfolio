@@ -149,13 +149,12 @@ export default {
     },
     {
       title: 'Documentary and Unscripted TV',
-      techStack: ['React Native', 'Redux', 'Node JS', 'Mongo DB'],
-      isConfidential: true,
-      description: `It is a React native app where I worked on designing 
-      auth and navigation screens. Also, worked on the complete state 
-      management of the auth flow and third party integrations to provide 
-      real time live updates to the user.`,
-      cover: 'apits_small.png'
+      techStack: ['Directing', 'Producing', 'Unscripted TV', 'Documentary'],
+      isConfidential: false, // Changed to false so people can see your great work!
+      description: `A collection of selected works in unscripted television and documentary filmmaking, focusing on representations of the historical real and creative storytelling.`,
+      cover: 'apits_small.png',
+      // Add the Vimeo link here. Use the "ID" (the numbers at the end of the Vimeo URL)
+      vimeo: 'https://player.vimeo.com/video/691803031'
     },
     {
       title: 'Illustration and Storyboarding',
