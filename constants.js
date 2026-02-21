@@ -188,7 +188,7 @@ export default {
       cover:
         'https://res.cloudinary.com/dxp5v7a5h/image/upload/f_auto,q_auto/v1771605229/videocover_hfc49u.png',
       video:
-        'https://res.cloudinary.com/dxp5v7a5h/video/upload/v1771608664/ads_n_graphic_c9u5fj.mp4' // The "static" path
+        'https://res.cloudinaryhttps://res.cloudinary.com/dxp5v7a5h/video/upload/v1771661653/ads_n_graphic_gxpj4c.mp4' // The "static" path
     }
   ]
 }
