@@ -186,9 +186,9 @@ export default {
       isConfidential: true,
       description: `Please click on the video file to see samples of Print and poster ads and other graphic work.`,
       cover:
-        'https://res.cloudinary.com/dxp5v7a5h/image/upload/f_auto,q_auto/v1771605229/videocover_hfc49u.png',
+        'https://res.cloudinary.com/dxp5v7a5h/image/upload/f_auto,q_auto/v1771661982/videocover_gmytib.png',
       video:
-        'https://res.cloudinaryhttps://res.cloudinary.com/dxp5v7a5h/video/upload/v1771661653/ads_n_graphic_gxpj4c.mp4' // The "static" path
+        'https://res.cloudinary.com/dxp5v7a5h/video/upload/f_auto,q_auto/ads_n_graphic_gxpj4c.mov' // The "static" path
     }
   ]
 }
