@@ -140,6 +140,7 @@ export default {
   PROJECTS: [
     {
       title: 'Advertising Services',
+      isRandomizer: true, // This triggers the new logic
       isConfidential: false,
       techStack: ['Campaing Development'],
       cover: 'tabasco_small.png',

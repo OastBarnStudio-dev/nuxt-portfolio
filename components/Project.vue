@@ -2,33 +2,46 @@
   <v-hover v-slot:default="{ hover }">
     <v-card class="project" dark elevation="24" data-aos="fade-up">
       <v-img
-        class="white--text align-end"
-        height="200px"
+        class="white--text align-end rounded-lg project-image-constrained"
+        height="350px"
+        contain
         :alt="project.title"
-        :position="project.cover === 'tabasco_small.png' ? 'top' : 'center'"
+        :style="project.isRandomizer ? 'cursor: pointer;' : ''"
+        :position="project.cover === '61_print.png' ? 'top' : 'center'"
         :src="
-          project.cover.startsWith('http')
+          project.isRandomizer && randomImageUrl
+            ? randomImageUrl
+            : project.cover.startsWith('http')
             ? project.cover
             : require(`@/assets/images/${project.cover}`)
         "
+        @click="handleImageClick"
       >
         <v-expand-transition>
           <div
             v-if="hover"
             class="d-flex transition-fast-in-fast-out v-card--reveal hover-content"
+            style="height: 100%; width: 100%; flex-direction: column;"
           >
             <v-btn
-              absolute
               class="ma-2 view-project"
               depressed
               rounded
               large
               color="black"
               elevation="0"
-              @click="toggleModal"
+              @click.stop="toggleModal"
             >
-              View Project
+              Look at examples
             </v-btn>
+
+            <p
+              v-if="project.isRandomizer"
+              class="white--text font-weight-bold mt-2 text-center"
+              style="background: rgba(0,0,0,0.5); padding: 5px 10px; border-radius: 4px;"
+            >
+              Click image for another print
+            </p>
           </div>
         </v-expand-transition>
       </v-img>
@@ -77,11 +90,23 @@
 
           <v-img
             v-else
-            height="200"
-            cover
+            class="white--text align-end project-image-constrained mx-auto"
+            max-height="500px"
+            max-width="500px"
+            contain
             :alt="project.title"
-            :src="project.cover"
-          ></v-img>
+            :style="project.isRandomizer ? 'cursor: pointer;' : ''"
+            :src="
+              project.isRandomizer && randomImageUrl
+                ? randomImageUrl
+                : project.cover.startsWith('http')
+                ? project.cover
+                : require(`@/assets/images/${project.cover}`)
+            "
+            @click="handleImageClick"
+            @error="generateRandomImage"
+          >
+          </v-img>
 
           <v-card-title>{{ project.title }}</v-card-title>
 
@@ -136,7 +161,16 @@ export default {
   },
   data() {
     return {
-      dialog: false
+      dialog: false,
+      randomImageUrl: '',
+      maxFiles: 65, // Update this as you upload more
+      cloudinaryBaseUrl: 'https://res.cloudinary.com/dxp5v7a5h/image/upload/'
+    }
+  },
+  mounted() {
+    // This is the correct way to call it when the component loads
+    if (this.project.isRandomizer) {
+      this.generateRandomImage()
     }
   },
   methods: {
@@ -147,6 +181,27 @@ export default {
     },
     toggleModal() {
       this.dialog = !this.dialog
+    },
+    generateRandomImage() {
+      const randomNumber = Math.floor(Math.random() * this.maxFiles) + 1
+      this.randomImageUrl = `${this.cloudinaryBaseUrl}f_auto,q_auto/${randomNumber}_print.png`
+    },
+    handleImageClick() {
+      if (this.project.isRandomizer) {
+        // 1. Change the current image immediately
+        this.generateRandomImage()
+
+        // 2. Pre-fetch a future image after 2 seconds so it's ready in the cache
+        setTimeout(() => {
+          // Safety check: ensure we don't pick a number higher than what's uploaded
+          const nextRandom = Math.floor(Math.random() * this.maxFiles) + 1
+          const img = new Image()
+          img.src = `${this.cloudinaryBaseUrl}f_auto,q_auto/${nextRandom}_print.png`
+
+          // Console log for your testing (you can remove this later)
+          console.log(`Pre-loaded image: ${nextRandom}_print.png`)
+        }, 2000)
+      }
     }
   }
 }
@@ -155,15 +210,26 @@ export default {
 <style lang="scss" scoped>
 .project {
   cursor: pointer;
-  max-width: 300px;
+  max-width: 300px; // This keeps your cards in a nice grid
 }
+
+/* FIX: This ensures the image inside doesn't zoom or crop */
+.project-image-constrained {
+  ::v-deep .v-image__image {
+    background-size: contain !important;
+  }
+}
+
 .hover-content {
   height: 100%;
+  flex-direction: column; /* Allows button and text to stack vertically */
 }
+
 .view-project {
   opacity: 1 !important;
   z-index: 2;
 }
+
 .v-card--reveal {
   align-items: center;
   bottom: 0;
@@ -172,13 +238,16 @@ export default {
   width: 100%;
   background: #323030e0;
 }
+
 .tech-stack {
   height: 2.5rem;
 }
+
 .project-modal {
   background: #323030;
   position: relative;
 }
+
 .close-btn {
   position: absolute;
   right: 1rem;
@@ -192,6 +261,7 @@ export default {
   justify-content: center;
   background-color: #323030;
 }
+
 @media screen and (max-width: 767px) {
   .project {
     max-width: 100% !important;
