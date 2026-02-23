@@ -32,7 +32,7 @@
           "A problem visualised is a problem halved."
         </p>
         <p>
-          These pages are stil in development at 16/02/2026 and will be
+          These pages are stil in development at 23/02/2026 and will be
           gradually populate with work in the coming days. Please, use our
           contact page for any queries.
         </p>
