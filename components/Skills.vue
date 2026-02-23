@@ -12,8 +12,8 @@
           />
           <div class="skill-title" data-aos="fade-up">Adverts</div>
           <div class="skill-description" data-aos="fade-up">
-            Scriptwriting, campains concept creaion and production to TV, video,
-            online and print.
+            Concept creation, Campaigns, and production to TV, video, online and
+            print.
           </div>
         </v-col>
         <v-col class="text-center px-4" cols="12" sm="4">
@@ -26,7 +26,7 @@
           <div class="skill-title" data-aos="fade-up">Video Production</div>
           <div class="skill-description" data-aos="fade-up">
             Self shoting producer director services, pre-edits and short edit
-            with Resolve and final cut postproduction.
+            with Resolve and Final Cut. Postproduction.
           </div>
         </v-col>
         <v-col class="text-center px-4" cols="12" sm="4">
@@ -37,10 +37,10 @@
             data-aos="fade-up"
           />
           <div class="skill-title" data-aos="fade-up">
-            Illustration and design
+            Illustration and Design
           </div>
           <div class="skill-description" data-aos="fade-up">
-            Sdvertising and Graphic Art Direction, Pencil, pen and ink
+            Advertising and Graphic Art Direction, Pencil, Pen and Ink
             Ilustration and digital using Adobe, Affinity or Procreate.
           </div>
         </v-col>
