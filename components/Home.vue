@@ -19,13 +19,13 @@
             :back-speed="35"
             :strings="[
               'Award winning advertising Creative',
-              'Experience Unescripted Producer Director',
+              'Experienced Unescripted Producer Director',
               'Illustrator and Documentary Scholar',
               'Ace at gnawing large bones. Zac is.'
             ]"
           >
             <div class="sub-text">
-              An <span class="typing font-weight-bold"></span>
+              - <span class="typing font-weight-bold"></span>
             </div>
           </vue-typed-js>
           <v-btn
