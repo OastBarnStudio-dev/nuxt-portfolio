@@ -1,9 +1,9 @@
 export default {
   PORTFOLIO_SECTIONS: [
     { name: 'Home', tagLine: 'The beginning!' },
-    { name: 'About', tagLine: 'Curious?' },
     { name: 'Skills', tagLine: 'I got game!' },
     { name: 'Works', tagLine: 'Only the finest!' },
+    { name: 'About', tagLine: 'Curious?' },
     { name: 'Contact', tagLine: "Don't hesitate!" }
   ],
   SKILLS: [
@@ -168,26 +168,26 @@ export default {
     },
     {
       title: 'A Productive Template',
-      techStack: ['React Native', 'Redux', 'Node JS', 'Mongo DB'],
+      techStack: ['Vue', 'Nuxt JS'],
       isConfidential: true,
       description: `Still a work in progress. I want to produce a simple, free, customizable, and publish-ready template for professionals outside of programming who want a self-publishing, sleek, technologically up-to-date, fast-loading website for platforms like Netlify — without inducing despair and hair loss.`,
       cover: 'notes.jpeg'
     },
     {
       title: 'Blog Site',
-      techStack: ['Angular', 'Node JS', 'Mongo DB'],
+      techStack: ['Soon to come blog entries'],
       isConfidential: false,
-      description: `The application was developed in a mission to develop an online publishing platform where users can post blogs, comments and like the posts with simple yet powerful UI`,
+      description: `Soon to come entries`,
       cover: 'blog.jpg',
       url: 'https://github.com/kousikaganesan/blog-site'
     },
     {
       title: 'Print and Graphic',
-      techStack: ['Vue', 'Vuex', 'Node JS', 'Mongo DB'],
+      techStack: ['Enter project for a printwork presentation'],
       isConfidential: true,
       description: `Please click on the video file to see samples of Print and poster ads and other graphic work.`,
       cover:
-        'https://res.cloudinary.com/dxp5v7a5h/image/upload/f_auto,q_auto/v1771661982/videocover_gmytib.png',
+        'https://res.cloudinary.com/dxp5v7a5h/image/upload/v1771870914/videocover.png',
       video:
         'https://res.cloudinary.com/dxp5v7a5h/video/upload/f_auto,q_auto/ads_n_graphic_gxpj4c.mov' // The "static" path
     }

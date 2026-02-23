@@ -37,22 +37,9 @@
           contact page for any queries.
         </p>
       </div>
-      <div data-aos="fade-up">
-        <Technologies />
-      </div>
     </div>
   </v-container>
 </template>
-
-<script>
-import Technologies from '@/components/Technologies'
-
-export default {
-  components: {
-    Technologies
-  }
-}
-</script>
 
 <style lang="scss" scoped>
 .about {

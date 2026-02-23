@@ -1,30 +1,36 @@
 <template>
   <v-container fluid>
     <Home />
-    <About />
+
+    <div data-aos="fade-up">
+      <Technologies />
+    </div>
     <Skills />
-    <Hireme />
     <Works />
+    <About />
+    <Hireme />
     <Contact />
   </v-container>
 </template>
 
 <script>
 import Home from '@/components/Home'
-import About from '@/components/About'
 import Skills from '@/components/Skills'
 import Works from '@/components/Works'
+import About from '@/components/About'
 import Contact from '@/components/Contact'
 import Hireme from '@/components/Hireme'
+import Technologies from '@/components/Technologies'
 
 export default {
   components: {
     Home,
-    About,
     Skills,
     Works,
+    About,
     Contact,
-    Hireme
+    Hireme,
+    Technologies
   },
   data() {
     return {

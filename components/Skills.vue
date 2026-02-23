@@ -3,7 +3,12 @@
     <div>
       <div class="section-title">What we do</div>
       <v-row no-gutters class="px-5">
-        <v-col class="text-center px-4" cols="12" sm="4">
+        <v-col
+          class="text-center px-4"
+          cols="12"
+          sm="4"
+          title="For samples, please open and click on projects."
+        >
           <img
             alt="Adverts"
             class="skill-img"
@@ -16,7 +21,13 @@
             print.
           </div>
         </v-col>
-        <v-col class="text-center px-4" cols="12" sm="4">
+
+        <v-col
+          class="text-center px-4"
+          cols="12"
+          sm="4"
+          title="For samples, please open and click on projects."
+        >
           <img
             alt="Video"
             class="skill-img"
@@ -29,7 +40,13 @@
             with Resolve and Final Cut. Postproduction.
           </div>
         </v-col>
-        <v-col class="text-center px-4" cols="12" sm="4">
+
+        <v-col
+          class="text-center px-4"
+          cols="12"
+          sm="4"
+          title="For samples, please open and click on projects."
+        >
           <img
             alt="Illustration and design"
             class="skill-img"

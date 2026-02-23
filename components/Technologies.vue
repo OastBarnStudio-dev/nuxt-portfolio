@@ -2,7 +2,9 @@
   <div class="technologies">
     <div class="technologies-title d-flex justify-center align-center">
       Skills and Services we offer
-      <img class="roller" src="@/assets/images/paint-roller.png" />
+      <img
+        src="https://res.cloudinary.com/dxp5v7a5h/image/upload/v1771868906/favicon_FS_small.jpg"
+      />
     </div>
 
     <carousel :autoplay="true" :nav="false" :loop="true" :items="1">
