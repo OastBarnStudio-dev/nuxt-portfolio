@@ -32,7 +32,7 @@ export default {
           'Experienced admen and film maker running a video and graphic studio production.'
       },
       { name: 'og:type', content: 'website' },
-      { name: 'og:url', content: 'https://kousikaganesan.github.io/' },
+      { name: 'og:url', content: 'https://fsobron.com' },
       {
         name: 'og:image',
         content:
