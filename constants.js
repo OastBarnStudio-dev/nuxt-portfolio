@@ -15,53 +15,53 @@ export default {
           image: 'mdi-camera-iris'
         },
         {
-          name: 'Self shooting',
+          name: 'TV and Video Production',
           image: 'sony_icon'
         },
         {
-          name: 'Script writing',
-          image: 'mdi-script-outline'
+          name: 'Live Video and Sound Broadcast',
+          image: 'mdi-microphone-variant'
         },
         {
           name: 'Davinci Resolve Editing ',
           image: 'resolve_icon'
         },
         {
-          name: 'Final Cut',
-          image: 'finalcut_icon'
+          name: 'The Barn Studio, Heathfield',
+          image: 'mdi-barn'
         },
         {
           name: 'Podcast Production',
-          image: 'nuxt.svg'
+          image: 'mdi-youtube-tv'
         }
       ]
     },
     {
-      name: 'Advertising Campaigns',
+      name: 'Advertising',
       items: [
         {
-          name: 'Comercials scriptwriting',
-          image: 'mdi-script-outline'
+          name: 'Creative Strategy',
+          image: 'mdi-lightbulb-on'
         },
         {
           name: 'Comercials Production',
           image: 'mdi-television-classic'
         },
         {
-          name: 'Across Media integration',
-          image: 'mdi-account-tie-voice'
+          name: 'Brand Development',
+          image: 'mdi-fingerprint'
         },
         {
-          name: 'Print and Poster Advertising',
-          image: 'nodejs.webp'
+          name: 'Print and Poster',
+          image: 'mdi-artboard'
         },
         {
-          name: 'TV Production',
-          image: 'mdi-video-vintage'
+          name: 'Pitching & Presentations',
+          image: 'mdi-presentation'
         },
         {
           name: 'Viral',
-          image: 'nginx.svg'
+          image: 'mdi-tablet-cellphone'
         }
       ]
     },
@@ -70,27 +70,27 @@ export default {
       items: [
         {
           name: 'Illustration',
-          image: 'react.svg'
+          image: 'mdi-palette'
         },
         {
-          name: 'Storyboarding',
-          image: 'pm2.png'
+          name: 'Storyboarding, animatics',
+          image: 'krita_srcs_icon'
         },
         {
-          name: 'Concept Sketching',
-          image: 'witai.png'
+          name: 'Digital Art',
+          image: 'Affin_design'
         },
         {
           name: 'Gaphic Design',
-          image: 'typescript.png'
+          image: 'affin_publisher'
         },
         {
-          name: 'Comics',
-          image: 'scss.png'
+          name: 'Character Design',
+          image: 'procreate_icon'
         },
         {
-          name: 'Cartoons',
-          image: 'd3.png'
+          name: 'Portraits',
+          image: 'mdi-lead-pencil'
         }
       ]
     },
@@ -98,28 +98,28 @@ export default {
       name: 'set4',
       items: [
         {
-          name: 'Gitlab',
-          image: 'gitlab.png'
+          name: 'Unscripted Reality TV',
+          image: 'mdi-television-classic'
         },
         {
-          name: 'Github',
-          image: 'github.png'
+          name: 'Documentary Production',
+          image: 'mdi-video-vintage'
         },
         {
-          name: 'Bitbucket',
-          image: 'bitbucket.svg'
+          name: 'Documentary Research',
+          image: 'mdi-search-web'
         },
         {
-          name: 'Confluence',
-          image: 'confluence.png'
+          name: 'Scriptwriting',
+          image: 'mdi-script-outline'
         },
         {
-          name: 'Jira',
-          image: 'jira.svg'
+          name: 'Recorded Presentations',
+          image: 'finalcut_icon'
         },
         {
-          name: 'Trello',
-          image: 'trello.png'
+          name: 'PostProduction',
+          image: 'motion_icon'
         }
       ]
     }
