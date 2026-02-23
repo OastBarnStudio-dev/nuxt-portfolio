@@ -12,23 +12,23 @@ export default {
       items: [
         {
           name: 'Producing Directing',
-          image: 'vue.png'
+          image: 'mdi-camera-iris'
         },
         {
           name: 'Self shooting',
-          image: 'react.svg'
+          image: 'sony_icon'
         },
         {
           name: 'Script writing',
-          image: 'angular.png'
+          image: 'mdi-script-outline'
         },
         {
           name: 'Davinci Resolve Editing ',
-          image: 'ionic.png'
+          image: 'resolve_icon'
         },
         {
           name: 'Final Cut',
-          image: 'redux.png'
+          image: 'finalcut_icon'
         },
         {
           name: 'Podcast Production',
@@ -41,15 +41,15 @@ export default {
       items: [
         {
           name: 'Comercials scriptwriting',
-          image: 'vuetify.png'
+          image: 'mdi-script-outline'
         },
         {
           name: 'Comercials Production',
-          image: 'antdesign.svg'
+          image: 'mdi-television-classic'
         },
         {
           name: 'Across Media integration',
-          image: 'reactmaterial.png'
+          image: 'mdi-account-tie-voice'
         },
         {
           name: 'Print and Poster Advertising',
@@ -57,7 +57,7 @@ export default {
         },
         {
           name: 'TV Production',
-          image: 'mongodb.png'
+          image: 'mdi-video-vintage'
         },
         {
           name: 'Viral',
