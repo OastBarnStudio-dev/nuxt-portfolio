@@ -15,12 +15,12 @@ export default {
         name: 'description',
         hid: 'description',
         content:
-          'Award winning admen and documentary film maker, PhD. I am a media professional now running an advertising practice after decades working for ad agencies and TV productions, writing and shooting video, graphics and illustration from the heart of East Sussex'
+          'Award winning admen and documentary film maker, PhD. I am a media professional now running an advertising practice after decades working for ad agencies and TV productionsI write and shoot video, produce graphics and illustrations from the heart of East Sussex'
       },
       {
         name: 'keywords',
         content:
-          'Advertising Creative Director, Unscripted TV and film Producer Director, Illustration and comics, Documentary scholar, PhD'
+          'Advertising Creative Director, Unscripted TV, Video, Producer, Producer Director, Director, Illustration, Character design, Documentary scholar, PhD'
       },
       {
         name: 'og:title',
@@ -36,7 +36,7 @@ export default {
       {
         name: 'og:image',
         content:
-          'https://user-images.githubusercontent.com/20679183/88207143-fceac500-cc6c-11ea-8b72-54b2b8255ef7.png'
+          'https://res.cloudinary.com/dxp5v7a5h/image/upload/v1771860056/fs_at_barn.svg'
       },
       {
         name: 'twitter:card',
@@ -48,7 +48,7 @@ export default {
       },
       {
         name: 'twitter:title',
-        content: 'F_Sobron'
+        content: 'Fernando_Sobron'
       },
       {
         name: 'twitter:description',
@@ -57,7 +57,7 @@ export default {
       {
         name: 'twitter:image',
         content:
-          'https://user-images.githubusercontent.com/20679183/88207143-fceac500-cc6c-11ea-8b72-54b2b8255ef7.png'
+          'https://res.cloudinary.com/dxp5v7a5h/image/upload/v1771860056/fs_at_barn.svg'
       },
       {
         name: 'twitter:image:alt',
@@ -143,7 +143,7 @@ export default {
   },
   pwa: {
     manifest: {
-      name: 'Kousika Ganesan'
+      name: 'Fernando Sobron'
     }
   },
   /*
