@@ -146,7 +146,7 @@ export default {
       cover: 'tabasco_small.png',
       description:
         'Technology evolves. Media expands. Channels multiply and grow ever more sophisticated — yet human nature remains unchanged. Build with us. Together, we will amplify your marketing with deep foundational expertise, shaped by decades of success in advertising communications and guided by the timeless art of empathy and persuasion. Because while the tools may change, the human heart remains.',
-      url: 'https://github.com/kousikaganesan/covid-19-tracker'
+      url: 'https://github.com/OastBarnStudio-dev/nuxt-portfolio'
     },
     {
       title: 'Documentary and Unscripted TV',

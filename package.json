@@ -1,8 +1,8 @@
 {
-  "name": "nuxt-resume-template",
+  "name": "fernando-Sobron-portfolio-template",
   "version": "1.0.0",
-  "description": "My awesome Nuxt.js project",
-  "author": "Kousika",
+  "description": "My own Nuxt.js project",
+  "author": "Fernando Sobron",
   "private": true,
   "scripts": {
     "dev": "nuxt",

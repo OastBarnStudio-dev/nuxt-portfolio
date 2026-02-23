@@ -6,8 +6,8 @@ export default {
    ** Headers of the page
    */
   head: {
-    titleTemplate: 'F Sobron',
-    title: 'F Sobron Heathfield Studio',
+    titleTemplate: 'Fernando Sobron',
+    title: 'Fernando Sobron Heathfield Studio',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -44,7 +44,7 @@ export default {
       },
       {
         name: 'twitter:site',
-        content: 'F Sobron'
+        content: 'Fernando Sobron'
       },
       {
         name: 'twitter:title',
@@ -61,7 +61,7 @@ export default {
       },
       {
         name: 'twitter:image:alt',
-        content: 'Kousika Ganesan Logo'
+        content: 'Fernando Sobron Logo'
       }
     ],
     link: [{ rel: 'icon', type: 'image/x-icon?v=2', href: '/favicon.ico' }],

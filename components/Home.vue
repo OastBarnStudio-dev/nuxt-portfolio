@@ -11,7 +11,7 @@
           class="banner d-flex justify-center align-center rellax flex-column"
         >
           <div class="banner-text">Welcome to</div>
-          <div class="full-name">Fernando and Zac's Barn Studio</div>
+          <div class="full-name">Fernando Sobron and Zac's Barn Studio</div>
           <vue-typed-js
             class="justify-center"
             :loop="true"
