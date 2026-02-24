@@ -26,6 +26,7 @@
     "@nuxtjs/axios": "^5.3.6",
     "@nuxtjs/dotenv": "^1.4.0",
     "@nuxtjs/pwa": "^3.0.0-0",
+    "@nuxtjs/sitemap": "^7.6.0",
     "aos": "^2.3.4",
     "nuxt": "^2.0.0",
     "rellax": "^1.12.1",
@@ -35,16 +36,16 @@
     "vue-waypoint": "^3.4.1"
   },
   "devDependencies": {
-    "@nuxtjs/vuetify": "^1.0.0",
     "@nuxtjs/eslint-config": "^2.0.0",
     "@nuxtjs/eslint-module": "^1.0.0",
+    "@nuxtjs/vuetify": "^1.0.0",
     "babel-eslint": "^10.0.1",
     "eslint": "^6.1.0",
-    "eslint-plugin-nuxt": ">=0.4.2",
     "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-nuxt": ">=0.4.2",
     "eslint-plugin-prettier": "^3.1.2",
-    "prettier": "^1.19.1",
     "husky": "^4.0.0",
-    "lint-staged": "^10.0.0"
+    "lint-staged": "^10.0.0",
+    "prettier": "^1.19.1"
   }
 }

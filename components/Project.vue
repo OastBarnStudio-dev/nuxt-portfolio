@@ -61,8 +61,32 @@
             <v-icon>mdi-close</v-icon>
           </div>
 
+          <div v-if="project.vimeoList && project.vimeoList.length > 0">
+            <v-carousel
+              v-model="activeVideo"
+              hide-delimiter-background
+              show-arrows-on-hover
+              height="450"
+              dark
+            >
+              <v-carousel-item v-for="(video, i) in project.vimeoList" :key="i">
+                <div
+                  style="padding:56.25% 0 0 0; position:relative; height:100%;"
+                >
+                  <iframe
+                    :src="activeVideo === i ? video : ''"
+                    style="position:absolute; top:0; left:0; width:100%; height:100%;"
+                    frameborder="0"
+                    allow="autoplay; fullscreen; picture-in-picture"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+              </v-carousel-item>
+            </v-carousel>
+          </div>
+
           <div
-            v-if="project.vimeo"
+            v-else-if="project.vimeo"
             style="padding:56.25% 0 0 0; position:relative;"
           >
             <iframe
@@ -162,6 +186,7 @@ export default {
   data() {
     return {
       dialog: false,
+      activeVideo: 0,
       randomImageUrl: '',
       maxFiles: 65, // Update this as you upload more
       cloudinaryBaseUrl: 'https://res.cloudinary.com/dxp5v7a5h/image/upload/'

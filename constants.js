@@ -139,6 +139,16 @@ export default {
   GITHUB_LINK: 'https://github.com/OastBarnStudio-dev',
   PROJECTS: [
     {
+      title: 'Print and Graphic',
+      techStack: ['Enter project for a printwork presentation'],
+      isConfidential: true,
+      description: `Please click on the video file to see samples of Print and poster ads and other graphic work.`,
+      cover:
+        'https://res.cloudinary.com/dxp5v7a5h/image/upload/v1771870914/videocover.png',
+      video:
+        'https://res.cloudinary.com/dxp5v7a5h/video/upload/f_auto,q_auto/ads_n_graphic_gxpj4c.mov' // The "static" path
+    },
+    {
       title: 'Advertising Services',
       isRandomizer: true, // This triggers the new logic
       isConfidential: false,
@@ -149,13 +159,34 @@ export default {
       url: 'https://github.com/OastBarnStudio-dev/nuxt-portfolio'
     },
     {
-      title: 'Documentary and Unscripted TV',
+      title: 'The Studio Barn Heathfield | Unscripted TV & Film',
       techStack: ['Directing', 'Producing', 'Unscripted TV', 'Documentary'],
-      isConfidential: false, // Changed to false so people can see your great work!
-      description: `A collection of selected works in unscripted television and documentary filmmaking, focusing on representations of the historical real and creative storytelling.`,
+      isConfidential: false,
+      description: `A collection of selected works in unscripted television and documentary filmmaking...`,
       cover: 'apits_small.png',
-      // Add the Vimeo link here. Use the "ID" (the numbers at the end of the Vimeo URL)
-      vimeo: 'https://player.vimeo.com/video/691803031'
+      // Change 'vimeo' to a list (array) like this:
+      vimeoList: [
+        'https://player.vimeo.com/video/691803031',
+        'https://player.vimeo.com/video/73692583',
+        'https://player.vimeo.com/video/508952520',
+        'https://player.vimeo.com/video/462722068',
+        'https://player.vimeo.com/video/086056170',
+        'https://player.vimeo.com/video/368941649',
+        'https://player.vimeo.com/video/357836727',
+        'https://player.vimeo.com/video/1077935622',
+        'https://player.vimeo.com/video/367452885',
+        'https://player.vimeo.com/video/1125924208',
+        'https://player.vimeo.com/video/345711939',
+        'https://player.vimeo.com/video/260293234',
+        'https://player.vimeo.com/video//367452885',
+        'https://player.vimeo.com/video/336059866',
+        'https://player.vimeo.com/video/492079455',
+        'https://player.vimeo.com/video/557594926',
+        'https://player.vimeo.com/video/345536609',
+        'https://player.vimeo.com/video/385679078',
+        'https://player.vimeo.com/video/557594926',
+        'https://player.vimeo.com/video/67890755'
+      ]
     },
     {
       title: 'Illustration and Storyboarding',
@@ -180,16 +211,6 @@ export default {
       description: `Soon to come entries`,
       cover: 'blog.jpg',
       url: 'https://github.com/kousikaganesan/blog-site'
-    },
-    {
-      title: 'Print and Graphic',
-      techStack: ['Enter project for a printwork presentation'],
-      isConfidential: true,
-      description: `Please click on the video file to see samples of Print and poster ads and other graphic work.`,
-      cover:
-        'https://res.cloudinary.com/dxp5v7a5h/image/upload/v1771870914/videocover.png',
-      video:
-        'https://res.cloudinary.com/dxp5v7a5h/video/upload/f_auto,q_auto/ads_n_graphic_gxpj4c.mov' // The "static" path
     }
   ]
 }

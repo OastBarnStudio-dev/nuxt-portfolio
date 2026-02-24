@@ -2,11 +2,12 @@ import colors from 'vuetify/es5/util/colors'
 
 export default {
   mode: 'spa',
+  // ssr: true,        // This ensures the HTML is generated on the server/build time
   /*
    ** Headers of the page
    */
   head: {
-    titleTemplate: 'Fernando Sobron',
+    titleTemplate: '%s | Producer & Director',
     title: 'Fernando Sobron Heathfield Studio',
     meta: [
       { charset: 'utf-8' },
@@ -96,23 +97,27 @@ export default {
   /*
    ** Nuxt.js dev-modules
    */
+  /*
+   ** Nuxt.js modules
+   */
+  /*
+   ** Nuxt.js dev-modules
+   */
   buildModules: [
-    // Doc: https://github.com/nuxt-community/eslint-module
     '@nuxtjs/eslint-module',
-    '@nuxtjs/vuetify',
+    '@nuxtjs/vuetify', // This restores your layout!
     '@aceforth/nuxt-optimized-images'
   ],
+
   /*
    ** Nuxt.js modules
    */
   modules: [
-    // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
-    // '@nuxtjs/pwa',
-    // Doc: https://github.com/nuxt-community/dotenv-module
     '@nuxtjs/dotenv',
     '@neneos/nuxt-animate.css',
     'vue-scrollto/nuxt'
+    // We are leaving @nuxtjs/sitemap OUT for now to prevent crashes
   ],
   /*
    ** Axios module configuration
